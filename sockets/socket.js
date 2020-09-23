@@ -4,10 +4,6 @@ const Bands = require('../models/bands');
 
 const bands = new Bands();
 
-bands.addBand(new Band('Queen'));
-bands.addBand(new Band('Robert Portison'));
-bands.addBand(new Band('Beatles'));
-bands.addBand(new Band('Mago de Oz'));
 
 // Mensajes de sockets
 io.on('connection', client => {
